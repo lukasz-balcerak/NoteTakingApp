@@ -2,6 +2,7 @@
     box-sizing: border-box;
     background-color: #313639;
     color: #E0DBD1;
+    f
 }
 
 /* Container and Content display */
@@ -15,7 +16,28 @@
 .content {
     display: flex;
     flex-direction: column;
-    height: calc(100% - 50px);
+    /* 100px Header and 50px Footer */
+    height: calc(100% - 200px);
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+    font-size: 60px;
+    font-family: "Edu TAS Beginner";
+    margin: 10px;
+}
+
+.sticky-note-icon {
+    height: 100px;
+    width: 100px;
 }
 
 /* Footer display */
