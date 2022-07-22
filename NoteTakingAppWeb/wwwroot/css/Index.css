@@ -1,0 +1,95 @@
+﻿.form {
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Inputs with label */
+input {
+    width: 100%;
+    height: 28px;
+    font-family: "Raleway";
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid #F8F17C;
+}
+
+input:focus {
+    color: #2A2A2A;
+    outline: none;
+    box-shadow: none;
+    background: #F8F17C;
+}
+
+.input {
+    position: relative;
+    width: 85%;
+    margin: 20px auto
+}
+
+label {
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    font-size: 20px;
+}
+
+label i {
+    color: #F8F17C;
+}
+
+#password {
+    margin-bottom: 5px;
+}
+
+span a {
+    cursor: pointer;
+    color: #F8F17C;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/* Buttons */
+
+.login {
+    display: block;
+    margin: 20px auto;
+    margin-top: 40px;
+    padding: 5px 40px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 2px solid #F8F17C;
+    border-top: 1px solid #F8F17C;
+    border-radius: 15px 50px
+}
+
+.login:hover {
+    cursor: pointer;
+    color: #2A2A2A;
+    background-color: #F8F17C;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.singin {
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+    text-decoration: underline;
+    border: 0;
+}
+
+.singin:hover {
+    cursor: pointer;
+    color: #F8F17C;
+}

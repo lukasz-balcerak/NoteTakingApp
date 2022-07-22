@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 * {
     box-sizing: border-box;
     background-color: #313639;
     color: #E0DBD1;
-    f
+    font-family: "Raleway";
 }
 
 /* Container and Content display */
@@ -16,6 +18,8 @@
 .content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     /* 100px Header and 50px Footer */
     height: calc(100% - 200px);
 }
@@ -31,7 +35,7 @@ header {
 
 .main-header {
     font-size: 60px;
-    font-family: "Edu TAS Beginner";
+    font-family: "Mochiy Pop One";
     margin: 10px;
 }
 
