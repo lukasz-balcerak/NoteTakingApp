@@ -24,9 +24,9 @@
 
 header {
     display: flex;
-    height: 150px;
     justify-content: center;
     align-items: center;
+    height: 150px;
 }
 
 .main-header {
@@ -42,12 +42,14 @@ header {
 
 /* Footer display */
 
-.footer {
+footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
 }
 
 .copyright {
-    margin: 0 auto;
     text-align: center;
 }
+
