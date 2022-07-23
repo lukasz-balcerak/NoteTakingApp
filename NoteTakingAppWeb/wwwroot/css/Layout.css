@@ -2,6 +2,7 @@
     box-sizing: border-box;
     background-color: #313639;
     color: #E0DBD1;
+    font-family: "Raleway";
 }
 
 /* Container and Content display */
@@ -14,9 +15,8 @@
 
 .content {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     /* 100px Header and 50px Footer */
     height: calc(100% - 200px);
 }
