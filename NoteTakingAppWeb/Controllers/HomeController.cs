@@ -18,6 +18,11 @@ namespace NoteTakingAppWeb.Controllers
             return View();
         }
 
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
