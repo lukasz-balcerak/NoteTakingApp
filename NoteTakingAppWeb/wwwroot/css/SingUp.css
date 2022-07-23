@@ -1,1 +1,105 @@
-﻿
+﻿.form {
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+
+/* Inputs with label */
+
+span {
+    display: block;
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 10px;
+    top: -25px;
+}
+
+input {
+    width: 100%;
+    height: 28px;
+    font-family: "Raleway";
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    border: 0;
+    border-bottom: 1px solid #F8F17C;
+}
+
+input:focus {
+    color: #2A2A2A;
+    outline: none;
+    box-shadow: none;
+    background: #F8F17C;
+}
+
+.input {
+    position: relative;
+    width: 85%;
+    margin: 10px auto
+}
+
+label {
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    font-size: 20px;
+}
+
+label i {
+    color: #F8F17C;
+}
+
+span a {
+    cursor: pointer;
+    color: #F8F17C;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+#password {
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+
+.create {
+    display: block;
+    margin: 20px auto;
+    margin-top: 20px;
+    padding: 5px 40px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 2px solid #F8F17C;
+    border-top: 1px solid #F8F17C;
+    border-radius: 15px 50px
+}
+
+.create:hover {
+    cursor: pointer;
+    color: #2A2A2A;
+    background-color: #F8F17C;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.singin {
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+    text-decoration: underline;
+    border: 0;
+}
+
+.singin:hover {
+    cursor: pointer;
+    color: #F8F17C;
+}

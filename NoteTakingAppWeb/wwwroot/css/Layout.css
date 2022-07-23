@@ -17,10 +17,11 @@
 
 .content {
     display: flex;
+    overflow: scroll;
     align-items: center;
     justify-content: center;
     /* 100px Header and 50px Footer */
-    height: calc(100% - 200px);
+    height: calc(100% - 150px);
 }
 
 /*Header*/
@@ -28,19 +29,19 @@
 header {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 150px;
+    align-items: end;
+    height: 100px;
 }
 
 .main-header {
-    font-size: 60px;
+    font-size: 40px;
     font-family: "Mochiy Pop One";
     margin: 10px;
 }
 
 .sticky-note-icon {
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
 }
 
 /* Footer display */

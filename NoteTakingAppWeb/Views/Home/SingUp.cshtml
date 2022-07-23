@@ -3,8 +3,46 @@
     ViewData["CSS"] = "SingUp.css";
 }
 
-<div>
+<div class="form">
     <h1>
-        TEST
+        Create an account:
     </h1>
+    <form>
+        <div class="input">
+            <span>
+                Username
+            </span>
+            <label id="icon" for="username">
+                <i class="fa-solid fa-user"></i>
+            </label>
+            <input type="text" id="username" placeholder="Your Username" />
+        </div>
+        <div class="input">
+            <span>
+                Email
+            </span>
+            <label id="icon" for="email">
+                <i class="fa-solid fa-at"></i>
+            </label>
+            <input type="email" id="email" placeholder="user@email.com" />
+        </div>
+                <div class="input">
+            <span>
+                Password
+            </span>
+            <label id="icon" for="password">
+                <i class="fa-solid fa-lock"></i>
+            </label>
+            <input type="password" id="password" placeholder="Your secred password,,," />
+        </div>
+        <button class="create">
+            Create Accound
+        </button>
+        <p>
+            Already have an account ?
+        </p>
+        <button class="singin">
+            LogIn
+        </button>
+    </form>
 </div>
